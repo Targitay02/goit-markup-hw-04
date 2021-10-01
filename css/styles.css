@@ -360,6 +360,10 @@ margin-left: 93px;
     cursor: pointer;
 }
 
+.project-link {
+    color: var(--primary-text-color);
+}
+
 .project-card {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;

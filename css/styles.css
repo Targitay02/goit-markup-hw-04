@@ -131,6 +131,10 @@ margin-left: 93px;
     margin-left: auto;
 }
 
+.contacts-item {
+    display: flex;
+    }
+
 .contacts-item:not(:last-child) {
     margin-right: 50px;
 }
@@ -148,6 +152,12 @@ margin-left: 93px;
 .contacts-link:hover,
 .contacts-link:focus {
     color: var(--active-color);
+}
+
+.contacts-icon {
+margin-right: 10px;
+align-self: center;
+fill: currentColor;
 }
 
 /* Main */
@@ -208,6 +218,7 @@ margin-left: 93px;
 /* Преимущества */
 .benefits {
     padding-top: 94px;
+    display: flex;
 }
 
 .benefits-list {
@@ -220,6 +231,19 @@ margin-left: 93px;
     margin-right: 30px;
 }
 
+.benefits-box {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background-color: var(--section-background-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.benefits-icon {
+align-items: center;
+justify-content: center;
+}
 
 .benefits-title {
     font-weight: bold;
@@ -306,9 +330,7 @@ margin-left: 93px;
 }
 
 /* Портфолио */
-.project {
 
-}
 .filters-list {
     display: flex;
     justify-content: center;

@@ -129,6 +129,7 @@ margin-left: 93px;
     display: flex;
     align-items: center;
     margin-left: auto;
+    color: var(--primary-text-color);
 }
 
 .contacts-item {
@@ -242,9 +243,6 @@ fill: currentColor;
     justify-content: center;
 }
 
-.benefits-icon {
-
-}
 
 .benefits-title {
     font-weight: bold;
@@ -337,10 +335,6 @@ fill: currentColor;
     justify-content: center;
 }
 
-.social-item {
-
-}
-
 .social-box {
     display: flex;
     justify-content: center;
@@ -365,6 +359,51 @@ fill: currentColor;
 .social-icon:focus {
     fill: var(--primary-title-color);
 }
+
+/* Постоянные клиенты */
+.customers-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--secondary-title-color);
+    margin-bottom: 50px;
+}
+
+.customers-list {
+    display: flex;
+    justify-content: center;
+}
+
+.customers-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.customers-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.customers-box:hover,
+.customers-box:focus {
+border-color: var(--active-color);
+}
+
+.customers-icon {
+fill: #AFB1B8;
+}
+
+.customers-icon:hover,
+.customers-icon:focus {
+    fill: var(--active-color);
+}
+
 
 /* Портфолио */
 

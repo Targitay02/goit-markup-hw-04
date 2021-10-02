@@ -485,7 +485,10 @@ fill: #AFB1B8;
     line-height: 1.9;
 }
 
+
+
 /* Footer */
+
 .footer {
     background-color: var(--footer-background-color);
     padding-top: 60px;
@@ -497,6 +500,7 @@ fill: #AFB1B8;
     }
 
 .address {
+    /* display: flex; */
     margin-top: 20px;
 }
 
@@ -524,4 +528,16 @@ fill: #AFB1B8;
 .address-link:hover,
 .address-link:focus {
     color: var(--active-color);
+}
+
+.join-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: var(--primary-title-color);
+}
+
+.join {
+    display: flex;
 }

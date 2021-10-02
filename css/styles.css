@@ -238,11 +238,12 @@ fill: currentColor;
     background-color: var(--section-background-color);
     border-radius: 4px;
     margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .benefits-icon {
-align-items: center;
-justify-content: center;
+
 }
 
 .benefits-title {
@@ -312,6 +313,7 @@ justify-content: center;
 .team-card {
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 .name {
@@ -327,6 +329,41 @@ justify-content: center;
     font-size: 16px;
     line-height: 1.9;
     text-align: center;
+    margin-bottom: 16px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.social-item {
+
+}
+
+.social-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: #F5F4FA;
+    cursor: pointer;
+}
+
+.social-box:hover,
+.social-box:focus > .social-icon {
+    background-color: var(--active-color);
+}
+
+.social-icon {
+fill: currentColor;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+    fill: var(--primary-title-color);
 }
 
 /* Портфолио */

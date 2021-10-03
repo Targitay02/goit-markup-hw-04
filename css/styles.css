@@ -495,6 +495,9 @@ fill: #AFB1B8;
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.footer-container {
+    display: flex;
+}
 
 .logo-footer {
     color: #FFFFFF;
@@ -537,8 +540,4 @@ fill: #AFB1B8;
     line-height: 1.15;
     text-transform: uppercase;
     color: var(--primary-title-color);
-}
-
-.join {
-    display: flex;
 }

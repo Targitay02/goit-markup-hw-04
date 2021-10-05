@@ -311,7 +311,6 @@ fill: currentColor;
 .team-card {
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-bottom: 16px;
 }
 
 .name {
@@ -339,28 +338,29 @@ fill: currentColor;
     margin-right: 10px;
     }
 
-.social-box {
+.social-link {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    fill: #F5F4FA;
     cursor: pointer;
 }
-
-.social-box:hover,
-.social-box:focus > .social-icon {
+.social-item .social-link:focus,
+.social-item .social-link:hover {
     background-color: var(--active-color);
+    fill: var(--primary-title-color);
 }
 
 .social-icon {
-fill: currentColor;
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
 }
 
-.social-icon:hover,
-.social-icon:focus {
+.social-item .social-icon:focus,
+.social-item .social-icon:hover {
     fill: var(--primary-title-color);
 }
 
@@ -564,7 +564,7 @@ fill: #AFB1B8;
 margin-right: 10px;
 }
 
-.join-box {
+.join-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -575,7 +575,7 @@ margin-right: 10px;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.join-box:hover,
-.join-box:focus  {
+.join-link:hover,
+.join-link:focus  {
     background-color: var(--active-color) ;
 }

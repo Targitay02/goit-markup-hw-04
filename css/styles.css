@@ -345,11 +345,16 @@ fill: currentColor;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    cursor: pointer;
 }
-.social-item .social-link:focus,
-.social-item .social-link:hover {
+
+.social-link:hover,
+.social-link:focus {
+    cursor: pointer;
     background-color: var(--active-color);
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
     fill: var(--primary-title-color);
 }
 
@@ -359,10 +364,6 @@ fill: currentColor;
     fill: #AFB1B8;
 }
 
-.social-item .social-icon:focus,
-.social-item .social-icon:hover {
-    fill: var(--primary-title-color);
-}
 
 /* Постоянные клиенты */
 .customers-title {
@@ -383,7 +384,7 @@ fill: currentColor;
     margin-right: 30px;
 }
 
-.customers-box {
+.customers-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -391,23 +392,26 @@ fill: currentColor;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    cursor: pointer;
 }
 
-.customers-box:hover,
-.customers-box:focus {
-border-color: var(--active-color);
+.customers-link:hover,
+.customers-link:focus {
+    cursor: pointer;
+    border-color: var(--active-color);
+}
+
+.customers-link:focus {
+    outline: none;
 }
 
 .customers-icon {
-fill: #AFB1B8;
+    fill: #AFB1B8;
 }
 
-.customers-icon:hover,
-.customers-icon:focus {
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
     fill: var(--active-color);
 }
-
 
 /* Портфолио */
 
